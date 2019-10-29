@@ -6,11 +6,12 @@ tags: ssh-tunnel 内网穿透 linux service
 author: zhangxx
 ---
 
-* content
+
 {:toc}
 
 # 原文 
  [SSH隧道与端口转发及内网穿透](http://blog.csdn.net/zhaoyangkl2000/article/details/77961356)
+
 ## 基本描述 
 
 > 大家都知道SSH是一种安全的传输协议，用在连接服务器上比较多。不过其实除了这个功能，它的隧道转发功能更是吸引人。
@@ -126,7 +127,7 @@ ssh -C -f -N -g -D listen_port user@Tunnel_Host
 ![这里写图片描述](http://img.blog.csdn.net/20180226174019027?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYWN0YW5ibGU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
-# 代码 
+## 代码 
 
 ```
 ## 192.168.0.110
@@ -138,3 +139,7 @@ ssh -C -f -N -g -L 2233:localhost:5432 root@39.108.85.252
 #### ssh 本地连接免密操作
 scp -p ~/.ssh/id_rsa.pub water@192.168.0.110:/home/water/.ssh/authorized_keys
 ```
+
+## NOTE 
+- 注意 python-ssh-tunnel 比这个更好用。
+- 同样还有 fly 等穿透工具

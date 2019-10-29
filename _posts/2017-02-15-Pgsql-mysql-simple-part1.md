@@ -6,7 +6,6 @@ tags: pgsql mysql
 author: zhangxx
 ---
 
-* content
 {:toc}
 
 ## docker_file_dbs 安装 

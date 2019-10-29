@@ -6,7 +6,6 @@ tags: git
 author: zhangxx
 ---
 
-* content
 {:toc}
 
 

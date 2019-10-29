@@ -6,7 +6,6 @@ tags: configparser
 author: zhangxx
 ---
 
-* content
 {:toc}
 
 `configparser` 是一个配置文件的管理工具

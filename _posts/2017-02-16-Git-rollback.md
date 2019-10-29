@@ -7,7 +7,6 @@ tags: Git
 mathjax: true
 ---
 
-* content
 {:toc}
 
 >并不适合阅读的个人文档。
