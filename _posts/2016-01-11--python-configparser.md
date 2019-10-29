@@ -6,8 +6,6 @@ tags: configparser
 author: zhangxx
 ---
 
-{:toc}
-
 `configparser` 是一个配置文件的管理工具
 虽然现在都是用 json 做配置文件了； 但是觉得这个在很多的应用中使用较多，所以记录一下。
 
